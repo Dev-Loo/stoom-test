@@ -7,7 +7,7 @@ To run project, go to demo folder and execute: mvn spring-boot:run
 
 A simple Dockerfile exists in stoom-test/demo that assumes a .jar is created in demo/target folder
 
-To create .jar go to stoom-test/demo and execute: mvnw install
+To create .jar go to stoom-test/demo and execute: mvnw package
 
 To build image execute: docker build -t myapp .
 
